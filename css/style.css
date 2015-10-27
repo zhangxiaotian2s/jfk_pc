@@ -1,0 +1,68 @@
+*{margin: 0;padding: 0;	}
+li{list-style: none;}
+a{text-decoration: none;}
+table{ 
+	table-layout:fixed; 
+	empty-cells:show; 
+	border-collapse: collapse; 
+	margin:0 auto; 
+} 
+.p10{
+	padding: 10px;
+}
+h1,h2,h3{ 
+	font-size:12px; 
+	margin:0; 
+	padding:0; 
+}
+
+.blank10{ height: 10px;overflow: hidden; clear: both;}
+.blank30{ height: 30px;overflow: hidden; clear: both;}
+.wrap{ width: 1024px; margin: auto; }
+.table th { 
+	height:30px; 
+} 
+.table td,.table th{ 
+	border:1px solid #F0F0F0; 
+	padding:0 ; 
+}
+.tableborder{ 
+	color:#666; 
+} 
+
+.tablenoborder,.tablenoborder td ,.tablenoborder th{
+	border: none;
+}
+
+.game_title{ font-size: 20px; font-weight: bold; color: #B8A35B ;}
+.luncitable  td,.luncitable  th{ line-height: 20px; border-right: #F0F0F0 solid 1px; height: 40px; }
+.luncitable  td:last-child,.luncitable  th:last-child{ border: none;}
+.luncitable  td.br-none,.luncitable  th.br-none{ border-right: none;}
+
+.luncitable a{display: block;  text-align: ;color: #B8A358;font-size: 16px; }
+.luncitable  td span{display: block;  width: 100%; text-align: ; font-size: 12px; color: #B8A358}
+
+#fotter{height:44px;line-height:44px;background-color:;/*#cee2e0*/;width:100%}
+#fotter a{font-size:18px;font-weight:bold}
+.able_a{color:#B8A358;text-align:;font-size:18px;float:left;margin:0 0 0 10px}
+.disable_a{color:#B8A358;text-align:;font-size:18px;float:left;margin:0 0 0 10px}
+.page_control_item{width:38px;height:30px;line-height:30px;text-align:;color:#B8A358;font-size:18px;float:left;margin:7px 0 0 10px; display: inline; cursor: pointer;}
+.page_control_item a{color: #B8A358}
+.page_control_current{border: #ccc solid 1px}
+.small_font{ font-size: 12px;}
+
+
+.page_jump{color:#B8A358;font-size:18px;height:44px;line-height:44px;padding-right:10px}
+.page_jump input{margin:0 5px 0 5px;color:#B8A358;font-size:18px;}
+.fixed_header{ width: 100%; position: fixed; top: 0px; background: #fff;}
+.fixed_header tr th.blod_bottom{ border-bottom:#ccc solid 1px ;}
+.fenshutable td{color: #000; font-size: 16px;}
+.C_green{ color: green}
+.C_red{ color: #fe030f}
+.C_blue{ color: #0047f2}
+.fenshutable td.C_green{ color: green}
+.fenshutable td.C_red{ color: #fe030f}
+.fenshutable td.C_blue{ color: #0047f2}
+.fenshutable td.B_blue1{ color: #fff; background:#0047f2;}
+.fenshutable td.B_blue2{ color: #fff; background:#051069;}
+.fenshutable td.B_yellow{ color: #fff; background:#fff949; color: #fe030f;}
