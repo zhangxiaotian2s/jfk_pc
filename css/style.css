@@ -10,6 +10,9 @@ table{
 .p10{
 	padding: 10px;
 }
+.p20{
+	padding: 20px!important;
+}
 h1,h2,h3{ 
 	font-size:12px; 
 	margin:0; 
@@ -19,12 +22,10 @@ h1,h2,h3{
 .blank10{ height: 10px;overflow: hidden; clear: both;}
 .blank30{ height: 30px;overflow: hidden; clear: both;}
 .wrap{ width: 1024px; margin: auto; }
-.table th { 
-	height:30px; 
-} 
+	
 .table td,.table th{ 
 	border:1px solid #F0F0F0; 
-	padding:0 ; 
+	
 }
 .tableborder{ 
 	color:#666; 
@@ -34,13 +35,15 @@ h1,h2,h3{
 	border: none;
 }
 
+
+
 .game_title{ font-size: 20px; font-weight: bold; color: #B8A35B ;}
-.luncitable  td,.luncitable  th{ line-height: 20px; border-right: #F0F0F0 solid 1px; height: 40px; }
+.luncitable  td,.luncitable  th{ line-height: 20px; border-right: #F0F0F0 solid 1px;  padding: 10px;}
 .luncitable  td:last-child,.luncitable  th:last-child{ border: none;}
 .luncitable  td.br-none,.luncitable  th.br-none{ border-right: none;}
 
-.luncitable a{display: block;  text-align: ;color: #B8A358;font-size: 16px; }
-.luncitable  td span{display: block;  width: 100%; text-align: ; font-size: 12px; color: #B8A358}
+.luncitable a{display: block;  text-align: center;color: #B8A358;font-size: 16px; }
+.luncitable  td span{display: block;  width: 100%; text-align: center; font-size: 12px; color: #B8A358}
 
 #fotter{height:44px;line-height:44px;background-color:;/*#cee2e0*/;width:100%}
 #fotter a{font-size:18px;font-weight:bold}
