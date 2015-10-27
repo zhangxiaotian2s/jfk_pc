@@ -49,7 +49,7 @@ h1,h2,h3{
 #fotter a{font-size:18px;font-weight:bold}
 .able_a{color:#B8A358;text-align:;font-size:18px;float:left;margin:0 0 0 10px}
 .disable_a{color:#B8A358;text-align:;font-size:18px;float:left;margin:0 0 0 10px}
-.page_control_item{width:38px;height:30px;line-height:30px;text-align:;color:#B8A358;font-size:18px;float:left;margin:7px 0 0 10px; display: inline; cursor: pointer;}
+.page_control_item{width:38px;height:30px;line-height:30px;text-align:center;color:#B8A358;font-size:18px;float:left;margin:7px 0 0 10px; display: inline; cursor: pointer;}
 .page_control_item a{color: #B8A358}
 .page_control_current{border: #ccc solid 1px}
 .small_font{ font-size: 12px;}
