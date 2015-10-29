@@ -69,3 +69,12 @@ h1,h2,h3{
 .fenshutable td.B_blue1{ color: #fff; background:#0047f2;}
 .fenshutable td.B_blue2{ color: #fff; background:#051069;}
 .fenshutable td.B_yellow{ color: #fff; background:#fff949; color: #fe030f;}
+
+.leaderboard_table td{ text-align: center;}
+.leaderboard_table table td.bb_addborder{ border-bottom: #F0F0F0 solid 1px; }
+
+.leaderboard_header{ text-align: center; line-height: 50px; font-size: 20px;color:#B8A358 }
+.leaderboard_table  tr.headertr td{color:#B8A358; font-size: 16px;}
+.leaderboard_table td { color:#3e3e3e;}
+.leaderboard_table td a{ color: #0047f2}
+.leaderboard_table td a:hover{ color:#fe030f ; text-decoration: underline;}
