@@ -1,4 +1,4 @@
-*{margin: 0;padding: 0;	}
+*{margin: 0;padding: 0;font-family: "微软雅黑" verdana;	}
 li{list-style: none;}
 a{text-decoration: none;}
 table{ 
@@ -63,12 +63,13 @@ h1,h2,h3{
 .C_green{ color: green}
 .C_red{ color: #fe030f}
 .C_blue{ color: #0047f2}
-.fenshutable td.C_green{ color: green}
-.fenshutable td.C_red{ color: #fe030f}
-.fenshutable td.C_blue{ color: #0047f2}
-.fenshutable td.B_blue1{ color: #fff; background:#0047f2;}
-.fenshutable td.B_blue2{ color: #fff; background:#051069;}
-.fenshutable td.B_yellow{ color: #fff; background:#fff949; color: #fe030f;}
+.fenshutable td.C_green ,.leagueLive_table td.C_green{ color: green}
+.fenshutable td.C_red ,.leagueLive_table td.C_red{ color: #fe030f}
+.fenshutable td.C_blue ,.leagueLive_table td.C_blue{ color: #0047f2}
+.fenshutable td.B_blue1 ,.leagueLive_table td.B_blue1{ color: #fff; background:#0047f2;}
+.fenshutable td.B_blue2 ,.leagueLive_table td.B_blue2{ color: #fff; background:#051069;}
+.fenshutable td.B_yellow ,.leagueLive_table td.B_yellow{ color: #fff; background:#fff949; color: #fe030f;}
+.fenshutable td.B_gray ,.leagueLive_table td.B_gray{ color: #000; background:#ececec;}
 
 .leaderboard_table td{ text-align: center;}
 .leaderboard_table table td.bb_addborder{ border-bottom: #F0F0F0 solid 1px; }
@@ -78,3 +79,12 @@ h1,h2,h3{
 .leaderboard_table td { color:#3e3e3e;}
 .leaderboard_table td a{ color: #0047f2}
 .leaderboard_table td a:hover{ color:#fe030f ; text-decoration: underline;}
+
+.leagueLive_table tr.headertr td{ color: #B8A358;}
+.leagueLive_table td{ text-align: center; color: #3E3E3E;}
+ .leagueLive_table  td.br-none{ border-right: none;} 
+.leagueLive_table table td{ border: none; border-right: #F0F0F0 solid 1px; width: 4.76190%; }
+.leagueLive_table table tr.bb_addborder td{ border-bottom: #F0F0F0 solid 1px; }
+
+
+
