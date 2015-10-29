@@ -85,6 +85,5 @@ h1,h2,h3{
  .leagueLive_table  td.br-none{ border-right: none;} 
 .leagueLive_table table td{ border: none; border-right: #F0F0F0 solid 1px; width: 4.76190%; }
 .leagueLive_table table tr.bb_addborder td{ border-bottom: #F0F0F0 solid 1px; }
-
-
+.leagueLive_table span.small_font{ font-size: 12px;}
 
